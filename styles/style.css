@@ -80,3 +80,34 @@ nav li a{
     padding: 30px;
 }
 /* banner section end */
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+   
+    .banner{
+        flex-direction: column-reverse;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    .banner-img{
+        margin: 0px;
+    }
+    .banner-img img{
+        width: 300px;
+    }
+    .banner-content{
+        margin: 0px;
+        width: 100%;
+    }
+    .banner-content h1{
+        font-size: 20px;
+    }
+}
