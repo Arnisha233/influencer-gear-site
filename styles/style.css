@@ -141,13 +141,15 @@ nav li a{
     .banner-content h1{
         font-size: 20px;
     }
-    .sponsor-img{
-        display: block;
+    .sponsor-img {
+        
+    }
+    .sponsor-img {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
     }
     .sponsor-img img{
-        width: 100px;
-        margin-right: 30px;
-        margin-right: 50px;
         margin-bottom: 20px;
     }
 }
