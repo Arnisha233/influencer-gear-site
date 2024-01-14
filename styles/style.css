@@ -93,19 +93,32 @@ nav li a{
     }
     nav{
         flex-direction: column;
+        text-align: center;
+        padding: 40px 0px;
+    }
+    nav h2{
+        margin-bottom: 20px;
     }
     nav ul {
         flex-direction: column;
     }
+    nav li{
+        margin-bottom: 20px;
+    }
+    .font-icon{
+        justify-content: center;
+    }
     .banner-img{
-        margin: 0px;
+        margin: 20px 0px;
     }
     .banner-img img{
-        width: 300px;
+        width: 300px;   
     }
     .banner-content{
         margin: 0px;
         width: 100%;
+        text-align: center;
+        margin-top: 30px;
     }
     .banner-content h1{
         font-size: 20px;
