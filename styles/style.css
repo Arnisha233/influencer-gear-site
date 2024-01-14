@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@400;700;800&family=Poppins:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* shared styles start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.primary, a, h1{
+    color: #3A3A3A;
+}
+.secondary{
+    font-size: 28px;
+    color: #18191F;
+}
+.btn{
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 16px;
+}
+/* shared styles end */
+
+/* banner section start */
+
+.container{
+    background: #FFF;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0px;
+}
+nav h2{
+    font-size: 24px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 34px;
+}
+nav li a{
+    text-decoration: none;
+}
+.font-icon{
+   display: flex;
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-content h1{
+    font-size: 52px;
+
+}
+.banner-content p{
+    margin-top: 16px;
+}
+.banner-img{
+    background-image: url('../images/Circle\ design.svg');
+    background-size: cover;
+    margin-left: 160px;
+}
+.banner-img img{
+    padding: 30px;
+}
+/* banner section end */
