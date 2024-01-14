@@ -81,6 +81,25 @@ nav li a{
 }
 /* banner section end */
 
+/* sponsor section start */
+
+.sponsor{
+    margin-top: 100px;
+    text-align: center;
+    padding: 40px;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px 0px;
+}
+
+
+
+/* sponsor section end */
+
+
+
 
 
 
@@ -99,7 +118,8 @@ nav li a{
     nav h2{
         margin-bottom: 20px;
     }
-    nav ul {
+    nav ul,
+    .sponsor-img {
         flex-direction: column;
     }
     nav li{
@@ -116,7 +136,6 @@ nav li a{
     }
     .banner-content{
         margin: 0px;
-        width: 100%;
         text-align: center;
         margin-top: 30px;
     }
